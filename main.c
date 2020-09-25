@@ -2,15 +2,17 @@
 int main(void)
 {
 
- int score;
- float grade;
+  
+ float grade,score;
   printf("Input score: ");
-  scanf("%d",&score);
+  scanf("%f",&score);
   grade=score;
-  printf("score %.2f \n",grade);
+
+
+
   grade=score/10.0;
   if ((score >=0)&&(score <=100)){
-      switch(score/10)
+      switch((int)score/10)
       {
         
         case 8 :
