@@ -40,6 +40,7 @@ int main(void)
         default:
         printf("Grade F");
       
+      
       }
   } else
   printf("Score over scope");
